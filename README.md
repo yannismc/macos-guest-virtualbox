@@ -6,6 +6,10 @@ A default install only requires the user to sit patiently and, less than ten tim
 ### macOS Catalina (10.15), Mojave (10.14), and High Sierra (10.13) currently supported
 macOS Catalina version 10.15.2 and higher is only supported by VirtualBox version 6.1.4 and higher. A workaround for lower versions of VirtualBox which involves using earlier versions of `boot.efi` is [described in issue 134](https://github.com/myspaghetti/macos-guest-virtualbox/issues/134#issuecomment-583216307).
 
+### Pre-installation notes
+- Create machine named "macOS" at VirtualBox
+- PATH should contain the path to VBoxManage.exe
+
 ## Documentation
 Documentation can be viewed by executing the command `./macos-guest-virtualbox.sh documentation`
 
